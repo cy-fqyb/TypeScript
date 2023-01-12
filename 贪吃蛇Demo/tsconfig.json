@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "ES6",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    // 是否对js文件进行编译
+    // "allowJs": true,
+    // 编译的时候是否移除注释
+    "removeComments": false,
+    // 当有语法错误时决定是否生成编译文件
+    "noEmitOnError": false,
+    //编译后的js文件是否启用严格模式，默认启用
+    "alwaysStrict": true
+  }
+}
