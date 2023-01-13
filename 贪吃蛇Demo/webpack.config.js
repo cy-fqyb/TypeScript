@@ -7,6 +7,11 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "app.js",
   },
+
+  resolve: {
+    extensions: [".js", ".ts", ".css", ".json"],
+  },
+
   //   指定打包时要用的模块
   module: {
     rules: [
